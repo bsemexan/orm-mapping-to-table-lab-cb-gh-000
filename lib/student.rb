@@ -6,12 +6,14 @@ class Student
   attr_reader :id
 
   def initialize(id:, name:, grade:)
-    @id = id 
-    @name = name 
+    @id = id
+    @name = name
     @grade = grade
   end
-  
+
   def self.create_table(name:, grade:)
   end
+
+  def self.drop_table
 
 end
